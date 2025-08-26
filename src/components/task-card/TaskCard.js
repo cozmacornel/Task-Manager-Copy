@@ -10,11 +10,13 @@ function TaskCard(props) {
         <p className="task-id">{props.id}</p>
         <Badge status={props.status} />
       </div>
-      <div className="card-content">
-    <p>am reusit sa fac primul proiect in react</p>
-      </div>
+  <div className="card-content">
+  </div>
       <div className="card-footer">
         <DateContainer date={props.dueDate} />
+      </div>
+      <div className="card-text-below">
+        <p>{props.name}</p>
       </div>
     </div>
   );

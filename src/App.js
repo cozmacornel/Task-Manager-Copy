@@ -11,7 +11,7 @@ function App() {
     },
     {
       id: "T-2",
-      name: "12 Create a Design System for Enum Workspace.",
+      name: "react proiect",
       status: "In Progress",
       dueDate: new Date(2022, 7, 24),
     },

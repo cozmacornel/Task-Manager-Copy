@@ -1,15 +1,24 @@
-.due-date p:first-child {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: -0.02em;
-  color: #999999;
+.styled-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f7faff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
-.due-date p:last-child {
+.date-label {
+  font-weight: 500;
+  font-size: 12px;
+  color: #3a3a3a;
+  margin-bottom: 2px;
+}
+
+.date-value {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: -0.03em;
-  color: #16171d;
+  font-size: 15px;
+  color: #1976d2;
+  letter-spacing: 0.01em;
 }
